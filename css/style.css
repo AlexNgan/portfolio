@@ -84,6 +84,13 @@ h1{
     font-style: italic;
 }
 
+#posts {
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8cm;
+}
+
 #side {
     position:fixed;
     top:0px;
