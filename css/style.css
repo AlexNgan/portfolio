@@ -76,7 +76,7 @@ h1{
     color: var(--sidebarLink);
     background-color: var(--sidebarLinkBG);
     border:2px solid var(--sidebarLinkBorder);
-    padding: 1px;
+    padding: 3px;
 }
 
 #links a:hover {
