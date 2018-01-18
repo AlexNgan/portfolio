@@ -91,8 +91,8 @@ h1{
     height:100%;
     width:260px;
     overflow:hidden;
-    border-right:8px solid color: var(--sidebarBorder);
-    border-left: 8px solid color: var(--sidebarBorder);
+    border-right:8px solid var(--sidebarBorder);
+    border-left: 8px solid var(--sidebarBorder);
     background-color: var(--sidebarColor);
 }
 
