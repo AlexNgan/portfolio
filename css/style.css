@@ -23,6 +23,18 @@ html {
     text-shadow: 2px 2px #0c7307;
 }
 
+#side {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:260px;
+    overflow:hidden;
+    border-right:8px solid color: #aaaaaa;
+    border-left: 8px solid color: #aaaaaa;
+    background-color: #202020;
+}
+
 #sidebar {
     margin-right:10px;
     margin-top:20px;
