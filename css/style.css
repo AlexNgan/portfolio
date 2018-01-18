@@ -1,5 +1,62 @@
 /*Author: Alex */
 
-html {
-    font-family: "Source Sans Pro", sans-serif;
+*{
+  font-family: century gothic;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  text-align: left;
 }
+
+html {
+    /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+#title {
+    width:240px;
+    color:{color:Title};
+}
+
+#title:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px {color:Links};
+} 
+
+#chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+}
+
+#chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: red;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+}
+#chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: red;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}​
