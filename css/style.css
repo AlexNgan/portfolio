@@ -1,5 +1,14 @@
 /*Author: Alex */
 
+/* Variables for colors. */
+:root {
+  --text-color: #000000;
+  --bg-color: #FFFfff;
+  --title-color: #FFFfff;
+  --link-color: #0c7307;
+  --sidebar-border: #aaaaaa;
+}
+
 *{
   font-family: century gothic;
   font-size: 24px;
@@ -12,15 +21,23 @@ html {
     /* font-family: "Source Sans Pro", sans-serif; */
 }
 
+body {
+    font-family:century gothic;
+    font-size:12px;
+    letter-spacing: 0.5px;
+    background-color: var(--bg-color)
+    color: var(--text-color);
+}
+
 #title {
     width:240px;
-    color:#FFFfff;
+    color: var(--title-color);
 }
 
 #title:hover {
     font-weight: bold;
     font-style: italic;
-    text-shadow: 2px 2px #0c7307;
+    text-shadow: 2px 2px color: var(--link-color);
 }
 
 #side {
@@ -30,8 +47,8 @@ html {
     height:100%;
     width:260px;
     overflow:hidden;
-    border-right:8px solid color: #aaaaaa;
-    border-left: 8px solid color: #aaaaaa;
+    border-right:8px solid color: var(--sidebar-border);
+    border-left: 8px solid color: var(--sidebar-border);
     background-color: #202020;
 }
 
