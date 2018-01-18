@@ -5,6 +5,7 @@
     --bgColor: #FFFfff;
     --descriptionBG: #FFFfff;
     --linkColor: #0c7307;
+    --linkHover: #0c7307;
     --sidebarBorder: #aaaaaa;
     --sidebarColor: #202020;
     --sidebarLink: #d8d6d7;
@@ -20,6 +21,18 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     text-align: left;
+}
+
+/* Link formatting */
+a {
+    color: var(--linkColor);
+    text-decoration: none;
+    letter-spacing:1px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--linkHover);
 }
 
 body {
@@ -52,13 +65,13 @@ h1{
 }
 
 #links a {
-    display:block;
+    display: block;
     width:70px;
     margin-bottom:5px;
     line-height:15px;
     font-size:14px;
-    text-align:center;
-    text-transform:uppercase;
+    text-align: center;
+    text-transform: uppercase;
     letter-spacing:1px;
     color: var(--sidebarLink);
     background-color: var(--sidebarLinkBG);
