@@ -14,14 +14,14 @@ html {
 
 #title {
     width:240px;
-    color:{color:Title};
+    color:#FFFfff;
 }
 
 #title:hover {
     font-weight: bold;
     font-style: italic;
     text-shadow: 2px 2px {color:Links};
-} 
+}
 
 #chevron {
   position: relative;
