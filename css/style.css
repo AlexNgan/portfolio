@@ -4,6 +4,8 @@
 :root {
     --bgColor: #FFFfff;
     --descriptionBG: #FFFfff;
+    --entryBorder: #cccccc;
+    --entryColor: #FFFfff;
     --linkColor: #0c7307;
     --linkHover: #0c7307;
     --sidebarBorder: #aaaaaa;
@@ -55,6 +57,15 @@ h1{
     font-size:12px;
     opacity:.7;
     background-color: var(--descriptionBG);
+}
+
+#entries{
+    width: 500px;
+    padding:10px;
+    text-align:justify;
+    margin-bottom:15px;
+    background-color: var(--entriesColor);
+    border:1px solid var(--entryBorder);
 }
 
 #links {
