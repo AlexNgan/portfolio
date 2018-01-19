@@ -14,7 +14,7 @@
     --sidebar-linkBG: #000000;
     --sidebarLinkBorder:#0c7307;
     --textColor: #000000;
-    --title-Color: #FFFfff;
+    --title-Color: #ffffff;
 }
 
 *{
@@ -135,6 +135,7 @@ h2{
 
 #title {
     width:240px;
+    font-size: 50px;
     color: var(--titleColor);
 }
 
