@@ -50,8 +50,18 @@ h1{
 
 h2{
     font-size: 16px;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
+#content{
+    width: 1000px;
+    padding:10px;
+    text-align:justify;
+    margin-bottom:15px;
+    background-color: var(--entriesColor);
+    border:1px solid var(--entryBorder);
+}
+
 
 #description {
     margin-top:10px;
