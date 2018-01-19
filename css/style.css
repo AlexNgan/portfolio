@@ -19,7 +19,7 @@
 
 *{
     font-family: century gothic;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 5px;
     text-align: left;
@@ -44,17 +44,17 @@ body {
 }
 
 h1{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 h2{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 h3{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
