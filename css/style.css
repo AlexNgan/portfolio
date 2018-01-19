@@ -54,12 +54,10 @@ h2{
 }
 
 #content{
-    width: 1000px;
-    padding:10px;
-    text-align:justify;
-    margin-bottom:15px;
-    background-color: var(--entriesColor);
-    border:1px solid var(--entryBorder);
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20cm;
 }
 
 
