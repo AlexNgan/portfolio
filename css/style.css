@@ -80,13 +80,13 @@ img.resizeLogo {
     text-align: left;
     width:220px;
     font-family:century gothic;
-    font-size:12px;
-    opacity:.7;
+    font-size: 1em;
+    opacity: .7;
     background-color: var(--descriptionBG);
 }
 
 #entries{
-    width: 500px;
+    width: 700px;
     padding:10px;
     text-align:justify;
     margin-bottom:15px;
