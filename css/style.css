@@ -22,7 +22,7 @@
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Link formatting */
@@ -41,6 +41,10 @@ body {
     letter-spacing: 0.5px;
     background-color: var(--bgColor)
     color: var(--textColor);
+}
+
+footer{
+  text-align: justify;
 }
 
 h1{
