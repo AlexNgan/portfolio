@@ -70,6 +70,10 @@ img.resizeLogo {
   text-align: center;
 }
 
+p{
+  text-align: justify;
+}
+
 /*HTML5 no longer supports center tag, this is to address this. */
 #center{
   text-align: center;
