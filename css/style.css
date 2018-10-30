@@ -67,7 +67,6 @@ img.resizeLogo {
   max-width: 75%;
   max-height: 75%;
   margin:auto;
-  text-align: center;
 }
 
 /*Formats images to be centered and small for project pages. */
@@ -75,7 +74,7 @@ img.resizeFigures {
   max-width: 50%;
   max-height: 50%;
   margin: auto;
-  text-align: center;
+  float: right;
 }
 
 p{
