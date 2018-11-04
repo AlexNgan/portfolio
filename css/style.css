@@ -71,8 +71,8 @@ img.resizeLogo {
 
 /*Formats images to be centered and small for project pages. */
 img.resizeFigures {
-  max-width: auto;
-  max-height: auto;
+  max-width: 100px;
+  max-height: 200px;
   margin: auto;
   float: right;
 }
