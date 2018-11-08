@@ -71,8 +71,8 @@ img.resizeLogo {
 
 /*Formats images to be centered and small for project pages. */
 img.resizeFigures {
-  width: 500px;
-  height: 500px;
+  width: 10%;
+  height: 10%;
   margin: auto;
   float: right;
 }
