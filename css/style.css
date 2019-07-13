@@ -78,7 +78,7 @@ img.resizeFigures {
 }
 
 p{
-  text-align: justify;
+  text-align: left;
 }
 
 /*HTML5 no longer supports center tag, this is to address this. */
