@@ -22,7 +22,6 @@
     font-size: 14px;
     letter-spacing: .5px;
     margin-bottom: 5px;
-    margin-left: auto;
     text-align: left;
 }
 
@@ -172,6 +171,7 @@ p{
 #title {
     width:240px;
     text-align: center;
+    margin-left: auto;
     font-size: 2em;    /*The “em” is a scalable unit that is used in web document media. An em is equal to the current font-size. */
     font-weight: bold;
     color: var(--titleColor);
