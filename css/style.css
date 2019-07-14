@@ -62,6 +62,10 @@ h3{
   font-weight: bold;
 }
 
+img{
+  vertical-align: middle;
+}
+
 /*Settings for the logo on the landing page. */
 img.resizeLogo {
   max-width: 75%;
