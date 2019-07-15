@@ -81,6 +81,13 @@ img.resizeFigures {
   float: right;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /*Can't center if width is 100%*/
+}
+
 p{
   text-align: left;
 }
