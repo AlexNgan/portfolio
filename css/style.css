@@ -21,7 +21,6 @@
     font-family: century gothic;
     font-size: 14px;
     letter-spacing: .25px;
-    line-height: 1.5;
     margin-bottom: 5px;
     text-align: left;
 }
@@ -40,6 +39,7 @@ a:hover {
 
 body {
     letter-spacing: 0.5px;
+    line-height: 1.25;
     background-color: var(--bgColor)
     color: var(--textColor);
 }
