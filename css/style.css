@@ -300,61 +300,21 @@ Use the "clearfix" hack to fix this*/
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-[hidden],
-template {
-  display: none;
-}
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-
 b,
 strong {
   font-weight: bold;
-}
-
-dfn {
-  font-style: italic;
 }
 
 mark {
   background: #ff0;
   color: #000;
 }
+
 small {
   font-size: 80%;
 }
-sub,
-sup {
+
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -375,13 +335,6 @@ svg:not(:root) {
 
 figure {
   margin: 1em 40px;
-}
-
-hr {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
 }
 
 pre {
@@ -472,9 +425,11 @@ figure {
   max-width: 100%;
   height: auto;
 }
+
 .img-rounded {
   border-radius: 6px;
 }
+
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -488,16 +443,11 @@ figure {
   max-width: 100%;
   height: auto;
 }
+
 .img-circle {
   border-radius: 50%;
 }
 
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-}
 .sr-only {
   position: absolute;
   width: 1px;
