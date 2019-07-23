@@ -128,17 +128,17 @@ p{
 
 #links {
     position:fixed;
-    font-size:7px;
+    font-size: 5px;
     line-height:15px;
     z-index:2;
     margin-top: 400px;
     margin-left:90px;
-    letter-spacing: .15px;
+    letter-spacing: .1 px;
 }
 
 #links a {
     display: block;
-    width:70px;
+    width: 70px;
     margin-bottom:5px;
     text-align: center;
     text-transform: uppercase;
