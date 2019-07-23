@@ -128,10 +128,10 @@ p{
 
 #links {
     position:fixed;
-    font-size:10px;
+    font-size:7px;
     line-height:15px;
     z-index:2;
-    margin-top: 300px;
+    margin-top: 400px;
     margin-left:90px;
     letter-spacing: .15px;
 }
