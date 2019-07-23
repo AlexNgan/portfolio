@@ -38,8 +38,7 @@ a:hover {
 }
 
 body {
-    letter-spacing: 0.5px;
-    line-height: 1.25;
+    line-height: 1.5;
     background-color: var(--bgColor)
     color: var(--textColor);
 }
