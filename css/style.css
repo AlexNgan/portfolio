@@ -64,6 +64,8 @@ h3{
 
 img{
   object-fit: contain;
+  display: block;
+  margin: auto;
 }
 
 /*Settings for the logo on the landing page. */
