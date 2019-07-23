@@ -129,7 +129,7 @@ p{
 #links {
     position:fixed;
     z-index:2;
-    margin-top:auto;
+    margin-top: 100px;
     margin-left:90px;
     letter-spacing: .15px;
 }
