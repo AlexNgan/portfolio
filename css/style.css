@@ -111,8 +111,6 @@ p{
     padding:8px 10px;
     text-align: left;
     width:220px;
-    letter-spacing: .15;
-    font-size: 12px;
     opacity: .7;
     background-color: var(--descriptionBG);
 }
@@ -168,16 +166,16 @@ p{
     height:100%;
     width:17%;
     overflow:hidden;
-    border-right: 10% solid var(--sidebarBorder);
+    border-right: 8px solid var(--sidebarBorder);
     border-left: 8px solid var(--sidebarBorder);
     background-color: var(--sidebarColor);
+    text-align: center;
 }
 
 #sidebar {
     margin-right:10px;
     margin-top:20px;
-    /*float: right;*/
-    margin-left: auto;
+    display: inline-block;
 }
 
 #title {
