@@ -128,9 +128,10 @@ p{
     position: fixed;
     font-size: 5pt;
     line-height: 15px;
-    z-index:2;
+    z-index: 2;
     margin-top: 30%;
-    display: inline-block left;
+    /*margin-left: auto;*/
+    display: inline-block;
     letter-spacing: .1 px;
 }
 
