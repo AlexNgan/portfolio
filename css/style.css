@@ -125,12 +125,12 @@ p{
 }
 
 #links {
-    position:fixed;
+    position: fixed;
     font-size: 5pt;
     line-height: 15px;
     z-index:2;
     margin-top: 30%;
-    display: inline-block;
+    display: inline-block left;
     letter-spacing: .1 px;
 }
 
