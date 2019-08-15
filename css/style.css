@@ -110,7 +110,7 @@ p{
     display: inline-block;
     padding:8px 10px;
     text-align: left;
-    width:220px;
+    width: 220px;
     opacity: .7;
     background-color: var(--descriptionBG);
 }
@@ -128,10 +128,9 @@ p{
     position: fixed;
     font-size: 5pt;
     line-height: 15px;
-    z-index: 2;
+    /*z-index: 2;*/
     margin-top: 30%;
-    /*margin-left: auto;*/
-    display: inline-block;
+    /*display: inline-block;*/
     letter-spacing: .1 px;
 }
 
