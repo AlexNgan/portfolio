@@ -131,6 +131,7 @@ p{
     /*z-index: 2;*/
     margin-top: 30%;
     margin: auto;
+    width: 99%;
     /*display: inline-block;*/
     letter-spacing: .1 px;
 }
