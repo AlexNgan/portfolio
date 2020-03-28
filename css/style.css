@@ -125,7 +125,7 @@ p{
 }
 
 #links {
-    position: fixed;
+    /*position: fixed;*/
     font-size: 5pt;
     line-height: 15px;
     /*z-index: 2;*/
