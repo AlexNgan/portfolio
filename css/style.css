@@ -170,7 +170,7 @@ p{
 
 #navbar {
     margin-right: 50px;
-    display: inline-grid;
+    display: inline-block;
 }
 
 #title {
