@@ -116,7 +116,7 @@ p{
 
 #entries{
     width: 700px;
-    padding:10px;
+    padding:15px;
     text-align:justify;
     margin-bottom:25px;
     background-color: var(--entriesColor);
