@@ -8,11 +8,10 @@
     --entryColor: #FFFfff;
     --linkColor: #0c7307;
     --linkHover: #0c7307;
-    --sidebarBorder: #aaaaaa;
-    --sidebarColor: #202020;
-    --sidebarLink: #d8d6d7;
-    --sidebar-linkBG: #000000;
-    --sidebarLinkBorder:#0c7307;
+    --navbarColor: #202020;
+    --navbarLink: #d8d6d7;
+    --navbar-linkBG: #000000;
+    --navbarLinkBorder:#0c7307;
     --textColor: #000000;
     --titleColor: #ffffff;
 }
@@ -142,9 +141,9 @@ p{
     margin-bottom:5px;
     text-align: center;
     text-transform: uppercase;
-    color: var(--sidebarLink);
-    background-color: var(--sidebarLinkBG);
-    border:2px solid var(--sidebarLinkBorder);
+    color: var(--navbarLink);
+    background-color: var(--navbarLinkBG);
+    border:2px solid var(--navbarLinkBorder);
     padding: 3px;
 }
 
@@ -161,20 +160,18 @@ p{
     letter-spacing: 0px;
 }
 
-#side {
+#nav {
     position:fixed;
     top:0px;
     left:0px;
-    height:7%;
+    height:10%;
     width:100%;
     overflow: hidden;
-    border-right: 8px solid var(--sidebarBorder);
-    border-left: 8px solid var(--sidebarBorder);
-    background-color: var(--sidebarColor);
+    background-color: var(--navbarColor);
     text-align: center;
 }
 
-#sidebar {
+#navbar {
     margin-right:10px;
     margin-top:20px;
     display: inline-block;
