@@ -141,7 +141,7 @@ p{
     color: var(--navbarLink);
     background-color: var(--navbarLinkBG);
     border:2px solid var(--navbarLinkBorder);
-    padding: 3px;
+    padding: 10px;
 }
 
 #links a:hover {
