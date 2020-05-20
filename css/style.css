@@ -62,7 +62,7 @@ h3{
 
 img{
   object-fit: contain;
-  display: block;
+  display: inline-block;
   margin: 10px;
 }
 
