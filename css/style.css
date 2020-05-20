@@ -135,13 +135,13 @@ p{
 
 #links a {
     width: 70px;
-    margin-bottom:5px;
+    margin: 10px;
     text-align: center;
     text-transform: uppercase;
     color: var(--navbarLink);
     background-color: var(--navbarLinkBG);
-    border:2px solid var(--navbarLinkBorder);
-    padding: 10px;
+    border: 2px solid var(--navbarLinkBorder);
+    padding: 5px;
 }
 
 #links a:hover {
@@ -171,7 +171,7 @@ p{
 #navbar {
     margin-right: 10px;
     width: auto;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 #title {
