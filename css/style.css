@@ -63,7 +63,8 @@ h3{
 img{
   object-fit: contain;
   display: inline-block;
-  margin: 10px;
+  margin: 15px;
+  text-align: center;
 }
 
 /*Settings wrapping text. */
