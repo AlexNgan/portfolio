@@ -162,7 +162,7 @@ p{
     position:fixed;
     top:0px;
     left:0px;
-    height: 30pt;
+    height: 45pt;
     width:100%;
     overflow: hidden;
     background-color: var(--navbarColor);
