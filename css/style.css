@@ -87,10 +87,15 @@ h3 {
 }
 
 img {
-  object-fit: contain;
+  object-fit: cover;
   display: inline-block;
   margin: auto;
   padding: 15px;
+}
+
+img.ball {
+  border-radius: 50%;
+  box-shadow: 0 0 2px 1px var(--linkHover);
 }
 
 img.four-grid-cells {
