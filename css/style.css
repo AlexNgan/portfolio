@@ -31,7 +31,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   /* changes the grid layout to a single column */
       div.gallery {
           grid-template-columns: 1fr;
@@ -87,7 +86,7 @@ h3 {
 }
 
 img {
-  object-fit: cover;
+  object-fit: contain;
   display: inline-block;
   margin: auto;
   padding: 15px;
@@ -95,21 +94,10 @@ img {
 
 img.ball {
   border-radius: 50%;
-  grid-row: span 1 / auto;
-  grid-column: span 1 / auto;
 }
 
 img.ball:hover {
   box-shadow: 0 0 2px 1px var(--linkHover);
-}
-
-img.four-grid-cells {
-    grid-row: span 2 / auto;
-    grid-column: span 2 / auto;
-}
-
-img.wide-image {
-    grid-column: span 2 / auto;
 }
 
 /*Settings wrapping text. */
