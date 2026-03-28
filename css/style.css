@@ -97,10 +97,11 @@ img.ball {
   display: inline-block;
   object-fit: cover;
   max-width: 20vw;
-  clip-path: circle(20%);
+  clip-path: circle(30%);
   background-color: var(--bgColor);
   border-width: 5px;
   border-color: var(--navbarColor);
+  padding: -10%;
 }
 
 /*Settings wrapping text. */
