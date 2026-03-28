@@ -37,15 +37,13 @@
           grid-template-columns: 1fr;
       }
 
-  /* resets the grid placement properties for 
-  the images spanning four grid cells */
+  /* resets the grid placement properties for the images spanning four grid cells */
       img.four-grid-cells {
           grid-row: auto;
           grid-column: auto;
       }
 
-  /* resets the grid placement properties for 
-  the images spanning two grid columns  */
+  /* resets the grid placement properties for the images spanning two grid columns  */
       img.wide-image {
           grid-column: auto;
       }
@@ -83,12 +81,12 @@ h2{
     font-weight: bold;
 }
 
-h3{
+h3 {
   font-size: 16px;
   font-weight: bold;
 }
 
-img{
+img {
   object-fit: contain;
   display: inline-block;
   margin: auto;
