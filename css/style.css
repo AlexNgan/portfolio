@@ -99,6 +99,9 @@ img.ball {
   height: 10%;
   grid-row: span 1 / auto;
   grid-column: span 1 / auto;
+}
+
+img.ball:hover {
   box-shadow: 0 0 2px 1px var(--linkHover);
 }
 
