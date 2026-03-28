@@ -126,11 +126,10 @@ img.resizeFigures {
 
 .gallery {
     display: grid;
-    max-width: ;
+    margin-right: 10%;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
-    gap: 6px;
 }
 
 p{
@@ -163,6 +162,7 @@ p{
 
 #entries{
     width: 700px;
+    align-self: center;
     padding:15px;
     text-align:justify;
     margin-bottom:25px;
