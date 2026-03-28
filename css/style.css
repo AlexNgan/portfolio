@@ -129,7 +129,7 @@ img.resizeFigures {
     display: grid;
     margin-left: 10%;
     margin-right: 10%;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
 }
