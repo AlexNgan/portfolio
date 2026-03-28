@@ -95,7 +95,7 @@ img {
 img.ball {
   object-fit: cover;
   max-width: 20%;
-  max-height: auto;
+  width:150px;
   border-radius: 50%;
 }
 
