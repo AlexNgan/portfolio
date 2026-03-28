@@ -126,6 +126,7 @@ img.resizeFigures {
 
 .gallery {
     display: grid;
+    max-width: ;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
@@ -145,8 +146,8 @@ p{
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
-  width: 20cm;
-  font-size: 4vw;
+  width: 3fr;
+  font-size: 6vw;
 }
 
 #description {
