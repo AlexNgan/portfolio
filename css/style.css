@@ -146,7 +146,8 @@ p{
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
-  width: 3fr;
+  align-self: center;
+  width: 75vw;
   font-size: 6vw;
 }
 
