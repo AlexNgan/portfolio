@@ -93,6 +93,9 @@ img {
 }
 
 img.ball {
+  object-fit: cover;
+  max-width: 20%;
+  max-height: auto;
   border-radius: 50%;
 }
 
