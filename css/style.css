@@ -24,6 +24,34 @@
     text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+   .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* changes the grid layout to a single column */
+      div.gallery {
+          grid-template-columns: 1fr;
+      }
+
+  /* resets the grid placement properties for 
+  the images spanning four grid cells */
+      img.four-grid-cells {
+          grid-row: auto;
+          grid-column: auto;
+      }
+
+  /* resets the grid placement properties for 
+  the images spanning two grid columns  */
+      img.wide-image {
+          grid-column: auto;
+      }
+
+}
+
 /* Link formatting */
 a {
     color: var(--linkColor);
@@ -67,6 +95,15 @@ img{
   padding: 15px;
 }
 
+img.four-grid-cells {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+}
+
+img.wide-image {
+    grid-column: span 2 / auto;
+}
+
 /*Settings wrapping text. */
 img.wrap {
   float: left;
@@ -86,6 +123,14 @@ img.resizeFigures {
   margin-left: auto;
   margin-right: auto;
   width: 50%; /*Can't center if width is 100%*/
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
 }
 
 p{
@@ -324,7 +369,6 @@ textarea {
 figure {
   margin: 0;
 }
-
 
 .hidden {
   display: none !important;
