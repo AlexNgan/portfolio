@@ -96,10 +96,11 @@ img {
 img.ball {
   display: inline-block;
   object-fit: cover;
+  max-width: 10vw;
   clip-path: circle(20%);
   background-color: var(--bgColor);
-  border-width: 5px;
-  border-color: var(--navbarColor);
+  /* border-width: 5px;
+  border-color: var(--navbarColor); */
 }
 
 /*Settings wrapping text. */
@@ -234,9 +235,8 @@ p{
     text-shadow: 2px 2px var(--linkColor);
 }
 
-/*If an element is taller than the element containing it,
-and it is floated, it will overflow outside of its container.
-Use the "clearfix" hack to fix this*/
+/*If an element is taller than the element containing it, and it is floated, 
+it will overflow outside of its container. Use the "clearfix" hack to fix this*/
 .clearfix {
   overflow: auto;
 }
