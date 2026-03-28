@@ -86,13 +86,12 @@ img {
 }
 
 img.ball {
+  aspect-ratio: 1;
   object-fit: cover;
+  object-fit: center;
+  overflow: hidden;
   max-width: 20%;
-  clip-path: circle();
-}
-
-img.ball:hover {
-  box-shadow: 0 0 2px 1px var(--linkHover);
+  border-radius: 50%;
 }
 
 /*Settings wrapping text. */
