@@ -96,11 +96,11 @@ img {
 img.ball {
   display: inline-block;
   object-fit: cover;
-  max-width: 10vw;
+  max-width: 20vw;
   clip-path: circle(20%);
   background-color: var(--bgColor);
-  /* border-width: 5px;
-  border-color: var(--navbarColor); */
+  border-width: 5px;
+  border-color: var(--navbarColor);
 }
 
 /*Settings wrapping text. */
@@ -126,6 +126,7 @@ img.resizeFigures {
 
 .gallery {
     display: grid;
+    margin-left: 10%;
     margin-right: 10%;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: auto;
@@ -162,7 +163,9 @@ p{
 
 #entries{
     width: 700px;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding:15px;
     text-align:justify;
     margin-bottom:25px;
