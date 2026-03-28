@@ -25,12 +25,20 @@
 }
 
 @media screen and (max-width: 768px) {
-   .gallery {
+   #content{
+        font-size: 2vw;
+      }
+
+  .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 480px) {
+      #content{
+        font-size: 1vw;
+      }
+
   /* changes the grid layout to two column for phone*/
       div.gallery {
           grid-template-columns: 1fr 1fr;
@@ -88,9 +96,9 @@ img {
 img.ball {
   display: inline-block;
   object-fit: cover;
-  max-width: 20%;
-  clip-path: circle(40%);
+  clip-path: circle(20%);
   background-color: var(--bgColor);
+  border-width: 5px;
   border-color: var(--navbarColor);
 }
 
@@ -137,7 +145,7 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 20cm;
-  font-size: 20px;
+  font-size: 4vw;
 }
 
 #description {
@@ -202,6 +210,7 @@ p{
     overflow: hidden;
     background-color: var(--navbarColor);
     text-align: center;
+    z-index: 2;
 }
 
 #navbar {
