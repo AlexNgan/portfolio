@@ -86,12 +86,11 @@ img {
 }
 
 img.ball {
-  aspect-ratio: 1;
+  display: block;
   object-fit: cover;
-  object-fit: center;
-  overflow: hidden;
   max-width: 20%;
-  border-radius: 50%;
+  clip-path: circle();
+  margin: auto;
 }
 
 /*Settings wrapping text. */
