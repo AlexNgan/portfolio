@@ -65,7 +65,7 @@ a:hover {
 
 body {
     line-height: 1.5;
-    background-color: var(--bgColor)
+    background-color: var(--bgColor);
     color: var(--textColor);
 }
 
