@@ -35,6 +35,11 @@
       div.gallery {
           grid-template-columns: 1fr 1fr;
       }
+
+      #navbar {
+        display: flex;
+        align-items: center;
+      }
 }
 
 /* Link formatting */
@@ -82,9 +87,8 @@ img {
 
 img.ball {
   object-fit: cover;
-  clip-path: circle(50%);
-  padding: none;
-  margin: none;
+  max-width: 20%;
+  clip-path: circle();
 }
 
 img.ball:hover {
